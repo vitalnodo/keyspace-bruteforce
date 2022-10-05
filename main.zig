@@ -25,7 +25,7 @@ pub fn main() !void {
         try stdout.print(
             "\nIt took {d} ms to get {d}-bits key",
             .{
-                getTimeUntilKey(allocator, random_keys[index]),
+                try getTimeUntilKey(allocator, random_keys[index]),
                 key_size,
             },
         );
