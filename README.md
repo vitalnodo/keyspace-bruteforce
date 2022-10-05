@@ -1,1 +1,1 @@
-Display how many keys of a certain size exist, generate random and show how long bruteforce takes. Next idea: make a multithreaded version.
+Display how many keys of a certain size exist, generate random and show how long bruteforce takes. 
